@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CodeSnippets  xmlns="https://github.com/Brijesh962/Visual-Studio_C-_Snippets/">
+<CodeSnippets  xmlns="">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>MainMethod</Title>
-			<Shortcut>main</Shortcut>
-			<Description>Code snippet for Main Function</Description>
+			<Title>cww</Title>
+			<Shortcut>cww</Shortcut>
+			<Description>Code snippet for Console.Write</Description>
 			<Author>Brijesh Rathod</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -13,15 +13,12 @@
 		<Snippet>
 			<Declarations>
 				<Literal Editable="false">
-					<ID>SystemMain</ID>
-					<Function>SimpleTypeName(global::System)</Function>
+					<ID>SystemConsole</ID>
+					<Function>SimpleTypeName(global::System.Console)</Function>
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[static void Main(String[] args)
-				{
-					$end$
-			    }]]>
+				<![CDATA[$SystemConsole$.Write($end$);]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
